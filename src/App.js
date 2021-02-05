@@ -8,11 +8,11 @@ import AdminScreen from "./screens/AdminScreen";
 class App extends React.Component {
   render() {
     return (
-      <Provider store={store}>
+      <Provider store={store}>  
         <BrowserRouter>
           <div className="grid-container">
             <header>
-              <Link to="/">React Shopping Cart</Link>
+              <Link to="/">Shop-Clothing</Link>
               <Link to="/admin">Admin</Link>
             </header>
             <main>
